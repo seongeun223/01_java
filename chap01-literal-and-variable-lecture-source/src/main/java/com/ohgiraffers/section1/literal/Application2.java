@@ -95,6 +95,9 @@ public class Application2 {
         System.out.println("============ 논리값과 문자열의 값의 연산 ============");
         System.out.println(true +"a");
 
+        System.out.print("");
+
+
 
 
 
