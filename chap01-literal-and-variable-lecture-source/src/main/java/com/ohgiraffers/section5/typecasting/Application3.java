@@ -35,7 +35,6 @@ public class Application3 {
         System.out.println("result2 = " + result2);
         System.out.println("result3 = " + result3);
         System.out.println("result4 = " + result4);
-
-
+        
     }
 }
