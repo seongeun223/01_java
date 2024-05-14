@@ -29,7 +29,7 @@ public class Application1 {
         System.out.println(true);
         System.out.println(false);
 
-        //변경테스트
+        
         
     }
 }
