@@ -28,6 +28,8 @@ public class Application1 {
         //논리값 출력
         System.out.println(true);
         System.out.println(false);
+
+        //변경테스트
         
     }
 }
