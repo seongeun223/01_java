@@ -61,5 +61,17 @@ public class Application1 {
         longmulti = (long) firstnum * secondnum; // 강제 형변환
 
 
+
+
+        int salary = 4000000;
+        int bonus =500000;
+        System.out.println("보너스를 포함한 급여 : " +(salary + bonus) + "원");
+
+
+
+
+
+
+
     }
 }

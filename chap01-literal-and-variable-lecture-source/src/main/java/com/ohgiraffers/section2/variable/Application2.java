@@ -22,7 +22,7 @@ public class Application2 {
 
         // 기본자료형
         // 정수를 취급하는 자료형 4가지
-        byte bnum;
+        byte bnum; // 선언
 
         bnum = 10; // 초기화
 
@@ -74,6 +74,7 @@ public class Application2 {
         System.out.println("========== 변수에 저장된 값 출력 ==========");
         System.out.println("bnum의 값 : " + bnum);
         System.out.println("snum의 값 : " + snum);
+        System.out.println("snum의 값 : " + snum);
         System.out.println("inum의 값 : " + inum);
         System.out.println("lnum의 값 : " + lnum);
 
@@ -95,4 +96,5 @@ public class Application2 {
         System.out.println("str = " + str);
 
 
-    }}
+    }
+}
