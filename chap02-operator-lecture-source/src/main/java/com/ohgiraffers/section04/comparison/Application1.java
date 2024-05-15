@@ -89,11 +89,12 @@ public class Application1 {
 //        System.out.println("str1이 str2보다 작거나 같은지 비교 : " + (str1 <= str2)); //false
 
 
-
         int x = 10;
         int y = 11;
 
         boolean result = x <= y;
         System.out.println("result = " + result);
+
+    }
 
     }
