@@ -25,5 +25,7 @@ public class Application2 {
 
         int max2 = Calculator.staticMaxNumberOf(100, 200);
         System.out.println("100과 200 중 더 큰 것은? " +max2);
+
+
     }
 }
