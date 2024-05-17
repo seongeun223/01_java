@@ -21,7 +21,11 @@ public class Application1 {
         D_switch dSwitch = new D_switch();
         //dSwitch.testSimpleSwitchStatement();
         //dSwitch.testSwitchVendingMachine();
-        dSwitch.testNestedIfStatement();
+        //dSwitch.testNestedIfStatement();
+
+        practice practice = new practice();
+        practice.test();
+
 
     }
 }
