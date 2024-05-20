@@ -23,8 +23,6 @@ public class Application1 {
         //dSwitch.testSwitchVendingMachine();
         //dSwitch.testNestedIfStatement();
 
-        practice practice = new practice();
-        practice.test();
 
 
     }

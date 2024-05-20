@@ -20,7 +20,11 @@ public class Application {
         //b_while.testSimpleWhileStatement();
         //b_while.testWhileExample1();
         //b_while.testWhileExample2();
-        b_while.testWhileExample3();
+        //b_while.testWhileExample3();
+
+        C_doWhile c_doWhile = new C_doWhile();
+        //c_doWhile.testSimpleDoWhileStatement();
+        c_doWhile.testDoWhileExample();
     }
 
 }
