@@ -7,8 +7,6 @@ public class Application1 {
 
         int[] scores = new int[3];
 
-//        scores[0] = 1;
-//        scores[1] = 2;
 
         Scanner sc = new Scanner(System.in);
         double sum = 0;
@@ -26,6 +24,11 @@ public class Application1 {
         System.out.println("sum : " + sum);
         System.out.println("avg : " + avg);
 
+
+        int[][] iarr = new int[4][];
+
+        iarr[0][0] = 1;
+        iarr[]
 
 
 
