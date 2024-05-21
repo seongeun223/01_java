@@ -35,7 +35,7 @@ public class Application4 {
         System.out.println("========= 미리 할당한 배열을 이용한 방식 ==========");
         for(int i = 0; i < iarr3.length; i++) {
             for(int j = 0; j < iarr3[i].length; j++) {
-                System.out.println(iarr3[i][j] + " ");
+                System.out.print(iarr3[i][j] + " ");
             }
             System.out.println();
         }

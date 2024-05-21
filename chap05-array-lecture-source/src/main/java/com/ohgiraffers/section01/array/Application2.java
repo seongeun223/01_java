@@ -2,7 +2,8 @@ package com.ohgiraffers.section01.array;
 
 import java.util.Scanner;
 
-public class Application2 {
+public class
+Application2 {
     public static void main(String[] args) {
 
         /*

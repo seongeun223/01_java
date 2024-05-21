@@ -51,8 +51,6 @@ public class Application1 {
 
             System.out.println("arr[" + i + "] = " + arr[i]);
 
-
-            arr[i] = value += 10;
         }
 
         int sum2 = 0;

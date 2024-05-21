@@ -50,8 +50,14 @@ public class Application3 {
                 iarr[i][j] = ++value;
             }
         }
+        // 모든 배열에 순차적으로 접근해서 값을 출력한다.
+        for(int i = 0; i < iarr.length; i++) {
 
-       // for(int i = 0;
+            for(int j = 0; j < iarr[i].length; j++) {
+                System.out.print(iarr[i][j] + " ");
+            }
+            System.out.println();
+        }
 
     }
 
