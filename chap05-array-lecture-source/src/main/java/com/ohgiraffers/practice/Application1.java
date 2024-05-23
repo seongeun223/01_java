@@ -28,7 +28,7 @@ public class Application1 {
         int[][] iarr = new int[4][];
 
         iarr[0][0] = 1;
-        iarr[]
+
 
 
 
