@@ -31,7 +31,7 @@ public class Application4 {
         }
 
         for(int i = 0; i < iarr.length; i++) {
-            System.out.println(iarr[i] + " ");
+            System.out.print(iarr[i] + " ");
         }
 
     }
