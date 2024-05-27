@@ -23,7 +23,7 @@ public class Application {
          * */
 
         Scanner sc = new Scanner(System.in);
-        MemberService memberService = new MemberService();
+        MemberService memberService = new MemberService(); // 객체 생성
 
         while (true) {
             System.out.println("=========== 회원 관리 프로그램 ===========");
@@ -35,10 +35,10 @@ public class Application {
 
             switch (no) {
                 case 1:
-                    memberService.signUpMembers();
+                    memberService.signUpMembers(); //호출
                     break;
                 case 2:
-                    memberService.showAllMembers();
+                    memberService.showAllMembers(); //호출
                     break;
                 case 9:
                     System.out.println("프로그램을 종료합니다.");

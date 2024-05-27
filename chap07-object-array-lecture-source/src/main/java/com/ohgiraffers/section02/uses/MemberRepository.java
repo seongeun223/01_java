@@ -14,7 +14,7 @@ public class MemberRepository {
     }
     public static boolean store(Member[] newMembers) {
         for(int i = 0; i < newMembers.length; i++) {
-            members[count++] = newMembers[i];
+            members[count++] = newMembers[i]; // count 지정 이유 : i로 쓸 시 나중에 다시 5번을 반복하게 되면 원래 있던 자리로 다시 들어가 0부터 다시 시작
         }
         return true;
     }

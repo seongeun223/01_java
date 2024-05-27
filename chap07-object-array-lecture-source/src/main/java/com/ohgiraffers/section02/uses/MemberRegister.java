@@ -12,6 +12,7 @@ public class MemberRegister {
         for (Member m : members) {
             System.out.println(m.getName() + "님을 회원 등록을 하겠습니다.");
         }
+        // 
        if(MemberRepository.store(members)) {
            System.out.println("총" + members.length + "명의 회원 등록에 성공했습니다.");
        }

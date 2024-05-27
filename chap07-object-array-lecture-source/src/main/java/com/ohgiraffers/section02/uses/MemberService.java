@@ -14,9 +14,9 @@ public class MemberService {
         members[4] = new Member(1, "user05", "pass05", "윤봉길", 22, '남');
 
         // 입력에 대한 처리 -> 클래스 만들기
-        MemberRegister memberRegister = new MemberRegister();
+        MemberRegister memberRegister = new MemberRegister(); //객체 생성
 
-        memberRegister.regist(members);
+        memberRegister.regist(members); // 메소드 호출
     }
 
     public void showAllMembers() {
