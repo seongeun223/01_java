@@ -34,7 +34,7 @@ public interface InterProduct /*extends java.io.Serializable, java.util.Comparat
     * */
     /*public abstract*/ void abstMethod();
 
-    // static 메소든느 작성이 가능하다. jdk 1.8 이후 추가됨.
+    // static 메소드는 작성이 가능하다. jdk 1.8 이후 추가됨.
     public static void staticMethod() {
         System.out.println("InterProduct 클래스의 staticMethod 호출됨...");
     }
