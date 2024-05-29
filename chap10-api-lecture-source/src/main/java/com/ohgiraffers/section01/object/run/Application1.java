@@ -22,9 +22,15 @@ public class Application1 {
         Book book2 = new Book(2, "목민심서", "정약용", 30000);
         Book book3 = new Book(3, "목민심서", "정약용", 30000);
 
-        System.out.println("book1.toString= " + book1.toString());
-        System.out.println("book2. = " + book2.toString());
-        System.out.println("book3 = " + book3.toString());
+        System.out.println("book1.toString = " + book1.toString());
+        System.out.println("book2.toString = " + book2.toString());
+        System.out.println("book3.toString = " + book3.toString());
+        //System.out.println("book1 = " + book1); // 안에 .toString 생략
+
+        System.out.println("============== toString 오버라이딩 이후 =============");
+        System.out.println("boo1 = " + book1);
+        System.out.println("boo2 = " + book2);
+        System.out.println("boo3 = " + book3);
 
     }
 }
