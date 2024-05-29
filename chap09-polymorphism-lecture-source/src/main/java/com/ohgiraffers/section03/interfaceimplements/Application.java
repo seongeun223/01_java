@@ -14,7 +14,7 @@ public class Application {
         * 2. 자바의 단일상속의 단점을 극복할 수 있다. (다중상속)
         * */
 
-        // 인스턴스를 직접 생성하지 몸ㅅ하고 생성자 자체가 존재하지 않는다.
+        // 인스턴스를 직접 생성하지 못하고 생성자 자체가 존재하지 않는다.
         // InterProduct interProduct = new InterProduct();
 
         InterProduct interProduct = new Product();
