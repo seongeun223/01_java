@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.object.book.run;
+package com.ohgiraffers.section01.object.run;
 
 import com.ohgiraffers.section01.object.book.Book;
 
