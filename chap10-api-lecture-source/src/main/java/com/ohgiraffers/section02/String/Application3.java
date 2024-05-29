@@ -17,11 +17,13 @@ public class Application3 {
 
         String emp1 = "100,홍길동,서울,영업부";   // 모든 값 존재
         String emp2 = "200,유관순,,총무부";       // 주소 값 없음
-        String emp3 = "300,이순신,경기도";       // 부서 없음
+        String emp3 = "300,이순신,경기도,";       // 부서 없음
 
         String[] empArr1 = emp1.split(",");
         String[] empArr2 = emp2.split(",");
         String[] empArr3 = emp3.split(",");
+
+        System.out.println(empArr1.length);
 
         System.out.println("=============== empArr1 ==============="); // 정상출력
         for (int i = 0; i < empArr1.length; i++) {
