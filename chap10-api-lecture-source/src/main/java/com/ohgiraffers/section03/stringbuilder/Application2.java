@@ -22,7 +22,7 @@ public class Application2 {
 
         System.out.println("sb2 = " + sb2);
 
-        System.out.println("deleteCharAt() : " + sb.deleteCharAt(2));
+        System.out.println("deleteCharAt() : " + sb2.deleteCharAt(2));
 
         System.out.println("sb2 = " + sb2);
 
