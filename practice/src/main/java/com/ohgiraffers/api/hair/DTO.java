@@ -12,7 +12,7 @@ public class DTO {
     private char gender;
     private LocalDate birth;
     private LocalDateTime reservation;
-    private 
+    private
 
 
 }
