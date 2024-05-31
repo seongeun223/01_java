@@ -13,5 +13,11 @@ public class EmployeeDTO extends PersonDTO{
         this.dept = dept;
     }
 
-
+    @Override
+    public String toString() {
+        return "EmployeeDTO{" + "name=" + super.name + " age=" + super.getAge() + " height=" + super.getHeight() + " weight=" + super.getWeight() +
+                " salary=" + salary +
+                ", dept='" + dept + '\'' +
+                '}';
+    }
 }

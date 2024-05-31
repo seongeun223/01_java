@@ -31,8 +31,8 @@ public class StudentDTO extends PersonDTO{
 
     @Override
     public String toString() {
-        return "StudentDTO{" + "name=" + super.name + "age=" + super.getAge() + "height=" + super.getHeight() + "weight=" + super.getWeight() +
-                "grade=" + grade +
+        return "StudentDTO{" + "name=" + super.name + " age=" + super.getAge() + " height=" + super.getHeight() + " weight=" + super.getWeight() +
+                " grade=" + grade +
                 ", major='" + major + '\'' +
                 '}';
     }
