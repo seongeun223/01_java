@@ -1,14 +1,12 @@
 package com.ohgiraffers.section02;
 
 import com.ohgiraffers.section02.exception.MoneyNegativeException;
-import com.ohgiraffers.section02.exception.NotEnoughMoneyException;
-import com.ohgiraffers.section02.exception.PriceNegativeException;
-
+-5
 public class ExceptionTest {
 
     public void checkEnoughMoney(int price, int money) throws Exception {
 
-        if(money > 0) {
+        if(price < 0) {
             throw  new MoneyNegativeException("가격은 음수일 수 없습니다.");
         }
 

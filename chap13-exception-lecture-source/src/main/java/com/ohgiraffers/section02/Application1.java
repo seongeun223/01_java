@@ -1,6 +1,5 @@
 package com.ohgiraffers.section02;
 
-import com.ohgiraffers.section01.exception.ExceptionTest;
 
 import java.util.Scanner;
 
