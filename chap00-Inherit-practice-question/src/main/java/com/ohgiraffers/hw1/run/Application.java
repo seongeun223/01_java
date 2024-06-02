@@ -42,7 +42,6 @@ public class Application {
         Scanner sc = new Scanner(System.in);
 
         int count = 2;
-        String answer = "";
         while (true) {
             System.out.println("이름을 입력하세요.");
             String name = sc.next();
@@ -64,6 +63,14 @@ public class Application {
 
             System.out.println(count);
             count++;
+
+            System.out.print("계속 입력하시겠습니까? (y/n) : ");
+            char ch = sc.nextLine().toUpperCase().charAt(0);
+
+            if(ch == 'N') {
+                break;
+            }
+
 
             if(count == 10){
 
