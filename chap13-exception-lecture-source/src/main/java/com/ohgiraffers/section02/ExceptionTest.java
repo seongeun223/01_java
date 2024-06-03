@@ -1,7 +1,6 @@
 package com.ohgiraffers.section02;
 
 import com.ohgiraffers.section02.exception.MoneyNegativeException;
--5
 public class ExceptionTest {
 
     public void checkEnoughMoney(int price, int money) throws Exception {
