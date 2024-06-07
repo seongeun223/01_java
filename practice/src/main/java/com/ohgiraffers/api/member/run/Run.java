@@ -31,7 +31,7 @@ public class Run {
         Member[] members = new Member[firstSplitArr.length];
 
         for (int i = 0; i < firstSplitArr.length; i++) {
-            String[] secondSplitArr = firstSplitArr[i].split(",");
+            String[] secondSplitArr = firstSplitArr[i].split(","); //"1" -> 1
 
             // 분리해서 나온 데이터들을 Member라는 클래스의 필드값으로 저장.
             Member member = new Member();

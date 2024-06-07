@@ -1,6 +1,10 @@
 package com.ohgiraffers.api.hair;
 
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
 public class Hair {
@@ -112,12 +116,39 @@ public class Hair {
         System.out.println(firstSplitArr.length);
         System.out.println("firstSplitArr = " + Arrays.toString(firstSplitArr));
 
-        DTO[] dto1 = new DTO[firstSplitArr.length];
+        DTO[] dtoArray = new DTO[firstSplitArr.length];
 
-        for(int i = 0; i < firstSplitArr.length; i++) {
+        for (int i = 0; i < firstSplitArr.length; i++) {
             String[] secondSplitArr = firstSplitArr[i].split(",");
+
+            DTO dto = new DTO();
+            dto.setId(Integer.parseInt(secondSplitArr[0]));
+            dto.setFirst_name(secondSplitArr[1]);
+            dto.setLast_name(secondSplitArr[2]);
+            dto.setEmail(secondSplitArr[3]);
+            dto.setGender(secondSplitArr[4].charAt(0));
+            LocalDate birth = birth(secondSplitArr[5]);
+            dto.setBirth(birth);
+            LocalDate reservationDate = LocalDate.parse(secondSplitArr[6]);
+            dto.setReservationDate(reservationDate);
+            LocalTime reservationTime = LocalTime.parse(secondSplitArr[7], DateTimeFormatter.ofPattern("H:m"));
+            dto.setReservationTime(reservationTime);
+            LocalDateTime created_at = LocalDateTime.parse(secondSplitArr[8]);
+            dto.setCreate(created_at);
+
+            dtoArray[i] = dto;
         }
+        System.out.println(Arrays.toString(dtoArray));
 
 
     }
+
+    public static LocalDate birth(String birth) {
+        if (!birth.equals("")) {
+            return LocalDate.parse(birth, DateTimeFormatter.ofPattern("yyyy/MM/dd"));
+        } else {
+            return null;
+        }
+    }
+
 }
