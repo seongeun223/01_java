@@ -44,6 +44,9 @@ public class Application1 {
         * sorted() : 오름차순으로 정렬 (내림차순으로 정렬 : Comparator.reverseOrder())
         * limit() : 매개변수로 넣은 정수만큼 잘라준다.
         * */
-        stringList.stream().distinct().sorted(Comparator.reverseOrder()).limit(3).forEach(System.out::println);
+        stringList.stream()
+                .distinct()
+                .sorted(Comparator.reverseOrder())
+                .limit(3).forEach(System.out::println);
     }
 }
